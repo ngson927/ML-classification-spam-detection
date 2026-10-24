@@ -1,0 +1,19 @@
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS and temporary Word files
+.DS_Store
+~$*
+
+# Raw datasets - review sharing permissions first
+*.csv
+classification/TrainData*.txt
+classification/TestData*.txt
+classification/TrainLabel*.txt
